@@ -6,6 +6,9 @@ Implementation of LSTM encoder-decoder architecture with attention mechanism. I 
 
 The project is based on the programming assignment of deeplearning.ai, course Sequence models, Neural machine translation with attention. It was implemented in Keras and I reimplemented it using TensorFlow 1.14.
 
+## Requirements
+A full list of requirements is given [here](https://github.com/vgkortsas/Attention_mechanism_translate_dates/blob/master/requirements.txt)
+
 ## Reference
 [deeplearning.ai Sequence models](https://www.coursera.org/learn/nlp-sequence-models)
 
