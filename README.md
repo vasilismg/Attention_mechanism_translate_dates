@@ -7,6 +7,6 @@ Implementation of LSTM encoder-decoder architecture with attention mechanism. I 
 ## Reference
 [deeplearning.ai/Sequence models](https://www.coursera.org/learn/nlp-sequence-models/home/week/3)
 
-The project is based on the programming assignment of deeplearning.ai, course Sequence models, Neural machine translation with attention. It was implemented in Keras and I reimplemented it using TensorFlow.
+The project is based on the programming assignment of deeplearning.ai, course Sequence models, Neural machine translation with attention. It was implemented in Keras and I reimplemented it using TensorFlow 1.14.
 
 
