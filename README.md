@@ -1,4 +1,5 @@
-# Attention mechanism - translate dates
+# Attention enhanced LSTM network to translate dates
+
 Implementation of LSTM encoder-decoder architecture with attention mechanism. I applied the architecture to translate dates from human readable format to machine readable format, achieving accuracy of 80% on the testing set.
 
 ## Project
