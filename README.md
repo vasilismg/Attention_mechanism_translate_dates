@@ -1,6 +1,6 @@
 # Attention enhanced LSTM network to translate dates
 
-My own implementation of LSTM encoder-decoder architecture with attention mechanism. I applied the architecture to translate dates from human readable format to machine readable format, achieving accuracy of 80% on the testing set.
+My own implementation of an LSTM encoder-decoder architecture with attention mechanism. I applied the architecture to translate dates from human readable format to machine readable format, achieving accuracy of 80% on the testing set.
 
 ## Project
 [Attention mechanism - translate dates](https://github.com/vgkortsas/Attention_mechanism_translate_dates/blob/master/Attention_mechanism_translate_dates.ipynb): Translate dates from human readable format ("3 May 1979", "5 April 09") to machine readable format ("1979-05-03", "2009-04-05").
