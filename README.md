@@ -7,7 +7,7 @@
 My own implementation of an LSTM encoder-decoder architecture with attention mechanism. I applied the architecture to translate dates from human readable format ("3 May 1979", "5 April 09") to machine readable format ("1979-05-03", "2009-04-05"), achieving accuracy of 80% on the testing set.
 ([Jupyter Notebook](https://nbviewer.jupyter.org/github/vgkortsas/Attention_enhanced_LSTM/blob/master/Attention_mechanism_translate_dates.ipynb))
 
-The encoder-decoder models without attention have the following challenges:
+The encoder-decoder models \textbf{without} attention have the following challenges:
 
 * One single context vector, the final hidden state in the encoder RNN/LSTM, holding the meaning of the entire sentence/input sequence}. The challenge of this type of architectures is that the longer the input sequence length is, the more difficult it is for the final hidden state to capture the context. 
 
