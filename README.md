@@ -1,3 +1,5 @@
+[//]: # (Image References)
+
 [image1]: ./images/seq2seq "seq2seq"
 
 # Attention enhanced LSTM network to translate dates
@@ -8,7 +10,7 @@ My own implementation of an LSTM encoder-decoder architecture with attention mec
 The encoder-decoder models without attention have the following challenges:
 
 * One single context vector, the final hidden state in the encoder RNN/LSTM, holding the meaning of the entire sentence/input sequence}. The challenge of this type of architectures is that the longer the input sequence length the more difficult it is for the final hidden state to capture the context. 
-![seq2seq][seq2seq]
+![seq2seq][image1]
 * The information from the beginning of the input sequence is faded. The more updates are made to the same vector, the higher the chances are the earlier inputs and updates are lost.
 
 The project is based on the programming assignment of deeplearning.ai, course Sequence models, Neural machine translation with attention. It was implemented in Keras and I reimplemented it using TensorFlow 1.14.
