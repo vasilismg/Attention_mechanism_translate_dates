@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: ./images/seq2seq "seq2seq"
+[image1]: ./images/seq2seq.png "seq2seq"
 
 # Attention enhanced LSTM network to translate dates
 
