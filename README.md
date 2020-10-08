@@ -1,6 +1,7 @@
 [//]: # (Image References)
 
 [image1]: /images/seq2seq.png "seq2seq"
+[image2]: /images/seq2seq2.png "seq2seq2"
 
 # Attention enhanced LSTM network to translate dates
 
@@ -14,6 +15,8 @@ The encoder-decoder models without attention have the following challenges:
 ![seq2seq][image1]
 
 * The information from the beginning of the input sequence is faded. The more updates are made to the same vector, the higher the chances are the earlier inputs and updates are lost.
+
+![seq2seq2][image2]
 
 The project is based on the programming assignment of deeplearning.ai, course Sequence models, Neural machine translation with attention. It was implemented in Keras and I reimplemented it using TensorFlow 1.14.
 
