@@ -6,6 +6,7 @@
 
 # Attention enhanced LSTM network to translate dates
 
+### Encoder-decoder model without attention
 My own implementation of an LSTM encoder-decoder architecture **with** attention mechanism. I applied the architecture to translate dates from human readable format ("3 May 1979", "5 April 09") to machine readable format ("1979-05-03", "2009-04-05"), achieving accuracy of 80% on the testing set.
 ([Jupyter Notebook](https://nbviewer.jupyter.org/github/vgkortsas/Attention_enhanced_LSTM/blob/master/Attention_mechanism_translate_dates.ipynb))
 
