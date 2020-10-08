@@ -23,7 +23,7 @@ The encoder-decoder models **without** attention have the following challenges:
 ![seq2seq2][image2]
 
 ### Encoder-decoder model ***with*** attention
-The challenge of one single context vector, i.e. the final hidden state in the encoder RNN, holding the meaning of the entire sentence/input sequence is addressed by replacing that with an **attention based context vector** generated for every decoder step.
+The challenge of one single context vector, i.e. the final hidden state in the encoder RNN, holding the meaning of the entire sentence/input sequence is addressed by replacing that **with an attention based context vector** generated for every decoder step.
 
 ![attention][image3]
 
