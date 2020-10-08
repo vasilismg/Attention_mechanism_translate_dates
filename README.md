@@ -2,6 +2,7 @@
 
 [image1]: /images/seq2seq.png "seq2seq"
 [image2]: /images/seq2seq_2.png "seq2seq2"
+[image3]: /images/attention2.png "attention"
 
 # Attention enhanced LSTM network to translate dates
 
@@ -19,6 +20,8 @@ The encoder-decoder models **without** attention have the following challenges:
 ![seq2seq2][image2]
 
 The challenge of one single context vector, i.e. the final hidden state in the encoder RNN, holding the meaning of the entire sentence/input sequence is addressed by replacing that with an **attention based context vector** generated for every decoder step.
+
+![attention][image3]
 
 The project is based on the programming assignment of deeplearning.ai, course Sequence models, Neural machine translation with attention. It was implemented in Keras and I reimplemented it using TensorFlow 1.14.
 
