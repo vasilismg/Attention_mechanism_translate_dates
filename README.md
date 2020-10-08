@@ -11,7 +11,7 @@ My own implementation of an LSTM encoder-decoder architecture **with** attention
 
 The project is based on the programming assignment of deeplearning.ai, course Sequence models, Neural machine translation with attention. It was implemented in Keras and I reimplemented it using TensorFlow 1.14.
 
-### Encoder-decoder model without attention
+### Encoder-decoder model ***without*** attention
 The encoder-decoder models **without** attention have the following challenges:
 
 * One single context vector, the final hidden state in the encoder RNN/LSTM, holding the meaning of the entire sentence/input sequence}. The challenge of this type of architectures is that the longer the input sequence length is, the more difficult it is for the final hidden state to capture the context. 
