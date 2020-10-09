@@ -7,7 +7,7 @@
 # Attention enhanced LSTM network to translate dates
 
 My own implementation of an LSTM encoder-decoder architecture **with** attention mechanism. I applied the architecture to translate dates from human readable format ("3 May 1979", "5 April 09") to machine readable format ("1979-05-03", "2009-04-05"), achieving accuracy of 80% on the testing set.
-([Jupyter Notebook](https://nbviewer.jupyter.org/github/vgkortsas/Attention_enhanced_LSTM/blob/master/Attention_mechanism_translate_dates.ipynb))
+*	[Jupyter Notebook](https://nbviewer.jupyter.org/github/vgkortsas/Attention_enhanced_LSTM/blob/master/Attention_mechanism_translate_dates.ipynb)
 
 The project is based on the programming assignment of deeplearning.ai, course Sequence models, Neural machine translation with attention. It was implemented in Keras and I reimplemented it using TensorFlow 1.14.
 
