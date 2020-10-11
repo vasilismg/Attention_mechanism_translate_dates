@@ -12,7 +12,7 @@ My own implementation of an LSTM encoder-decoder architecture **with** attention
 The project is based on the programming assignment of deeplearning.ai, course Sequence models, Neural machine translation with attention. It was implemented in Keras and I reimplemented it using TensorFlow 1.14.
 
 ## Implementation
-*	[Jupyter Notebook](https://nbviewer.jupyter.org/github/vgkortsas/Attention_enhanced_LSTM/blob/master/Attention_mechanism_translate_dates.ipynb)
+[Jupyter Notebook](https://nbviewer.jupyter.org/github/vgkortsas/Attention_enhanced_LSTM/blob/master/Attention_mechanism_translate_dates.ipynb)
 
 ## Some comments on the importance of the attention mechanism
 ### Encoder-decoder model ***without*** attention
