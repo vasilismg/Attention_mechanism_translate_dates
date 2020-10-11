@@ -14,6 +14,11 @@ The project is based on the programming assignment of deeplearning.ai, course Se
 ## Implementation
 [Jupyter Notebook](https://nbviewer.jupyter.org/github/vgkortsas/Attention_enhanced_LSTM/blob/master/Attention_mechanism_translate_dates.ipynb)
 
+## Requirements
+A full list of the requirements is given [here](https://github.com/vgkortsas/Attention_mechanism_translate_dates/blob/master/requirements.txt). The Python and deep learning library versions are:
+- Python 3.5.5
+- TensorFlow 1.14.0
+
 ## Some comments on the importance of the attention mechanism
 ### Encoder-decoder model ***without*** attention
 The encoder-decoder models **without** attention have the following challenges:
@@ -31,10 +36,6 @@ The challenge of one single context vector, i.e. the final hidden state in the e
 
 ![attention][image3]
 
-## Requirements
-A full list of the requirements is given [here](https://github.com/vgkortsas/Attention_mechanism_translate_dates/blob/master/requirements.txt). The Python and deep learning library versions are:
-- Python 3.5.5
-- TensorFlow 1.14.0
 
 ## Reference
 [deeplearning.ai Sequence models](https://www.coursera.org/learn/nlp-sequence-models)
