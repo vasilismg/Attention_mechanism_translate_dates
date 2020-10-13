@@ -36,8 +36,12 @@ The challenge of one single context vector, i.e. the final hidden state in the e
 
 <img src="https://github.com/vgkortsas/Attention_enhanced_LSTM/blob/master/images/attention2.png" width="500">
 
-## Reference
-[deeplearning.ai Sequence models](https://www.coursera.org/learn/nlp-sequence-models)
+## References
+*   [deeplearning.ai Sequence models](https://www.coursera.org/learn/nlp-sequence-models)
+*   [Seq2seq pay Attention to Self Attention: Part 2](https://medium.com/@bgg/seq2seq-pay-attention-to-self-attention-part-2-cf81bf32c73d)
+*   [Paper Dissected: “Attention is All You Need” Explained](https://mlexplained.com/2017/12/29/attention-is-all-you-need-explained/)
+
+
 
 
 
