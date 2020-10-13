@@ -34,8 +34,7 @@ The encoder-decoder models **without** attention have the following challenges:
 ### Encoder-decoder model ***with*** attention
 The challenge of one single context vector, i.e. the final hidden state in the encoder RNN, holding the meaning of the entire sentence/input sequence is addressed by replacing that **with an attention based context vector** generated for every decoder step.
 
-![attention][image3]
-
+<img src="https://github.com/vgkortsas/Attention_enhanced_LSTM/blob/master/images/attention2.png" width="500">
 
 ## Reference
 [deeplearning.ai Sequence models](https://www.coursera.org/learn/nlp-sequence-models)
