@@ -29,7 +29,7 @@ The encoder-decoder models **without** attention have the following challenges:
 
 * The information from the beginning of the input sequence is faded. The more updates are made to the same vector, the higher the chances are the earlier inputs and updates are lost.
 
-![seq2seq2][image2]
+<img src="https://github.com/vgkortsas/Attention_enhanced_LSTM/blob/master/images/seq2seq_2.png" width="350">
 
 ### Encoder-decoder model ***with*** attention
 The challenge of one single context vector, i.e. the final hidden state in the encoder RNN, holding the meaning of the entire sentence/input sequence is addressed by replacing that **with an attention based context vector** generated for every decoder step.
