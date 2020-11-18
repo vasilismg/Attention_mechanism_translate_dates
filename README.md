@@ -20,8 +20,8 @@ A full list of the requirements is given [here](https://github.com/vgkortsas/Att
 - TensorFlow 1.14.0
 
 ## Some comments on the importance of the attention mechanism
-### Encoder-decoder model ***without*** attention
-The encoder-decoder models **without** attention have the following challenges:
+### LSTM/RNN encoder-decoder model ***without*** attention
+The LSTM/RNN encoder-decoder models **without** attention have the following challenges:
 
 * One single context vector, the final hidden state in the encoder RNN/LSTM, holding the meaning of the entire sentence/input sequence}. The challenge of this type of architectures is that the longer the input sequence length is, the more difficult it is for the final hidden state to capture the context. 
 
@@ -31,8 +31,8 @@ The encoder-decoder models **without** attention have the following challenges:
 
 <img src="https://github.com/vgkortsas/Attention_enhanced_LSTM/blob/master/images/seq2seq_2.png" width="500">
 
-### Encoder-decoder model ***with*** attention
-The challenge of one single context vector, i.e. the final hidden state in the encoder RNN, holding the meaning of the entire sentence/input sequence is addressed by replacing that **with an attention based context vector** generated for every decoder step.
+### LSTM/RNN encoder-decoder model ***with*** attention
+The challenge of one single context vector, i.e. the final hidden state in the encoder RNN/LSTM, holding the meaning of the entire sentence/input sequence is addressed by replacing that **with an attention based context vector** generated for every decoder step.
 
 <img src="https://github.com/vgkortsas/Attention_enhanced_LSTM/blob/master/images/attention2.png" width="500">
 
